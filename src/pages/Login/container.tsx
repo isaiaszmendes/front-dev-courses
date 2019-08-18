@@ -15,6 +15,6 @@ export default () => (
         <Link to={FrontEndRoutes.FORGOT}>Esqueci a senha</Link>
         <Link to={FrontEndRoutes.REGISTER}>Cadastre-se</Link>
       </div>
-    </div> 
+    </div>
   </section>
 );
