@@ -1,0 +1,45 @@
+.curso-item-page > img{
+    align-self: center;
+    height: 80px;
+    width: 90px;
+}
+
+.curso-item-page{
+    box-sizing: border-box;
+
+    width: 35vh;
+    height: 35vh;
+    margin: 15px;
+    padding: 20px;
+
+    background: #194c6a;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: -7px 7px 13px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:    -7px 7px 13px rgba(0, 0, 0, 0.30);
+    box-shadow:         -7px 7px 13px rgba(0, 0, 0, 0.30);
+}
+
+.curso-item-page h3{
+    font-size: 20px;
+    color: white;
+    margin-block-end: 10px;
+}
+
+.curso-item-page p{
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: white;
+}
+
+
+span{
+    color: rgb(255, 255, 255);
+}

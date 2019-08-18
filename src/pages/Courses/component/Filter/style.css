@@ -1,0 +1,9 @@
+.filter-courses-page{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(228, 134, 11);
+}
+
+.filter-courses-page button {
+  width: 200px;
+}
