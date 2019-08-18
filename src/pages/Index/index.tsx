@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
 
-// container 
+// container
 import IndexContainer from './container';
 
 class Index extends Component {
-  constructor() {
-    super()
-    this.state = {
-
-    }
+  componentDidMount() {
+    console.log('componentDidMount');
   }
 
   render() {
     return (
       <IndexContainer />
-    )
+    );
   }
 }
 
-export default Index
+export default Index;

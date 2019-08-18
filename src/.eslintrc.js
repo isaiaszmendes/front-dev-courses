@@ -35,6 +35,7 @@ module.exports = {
     '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
   },
   settings: {
+    'import/extensions': ['.ts', '.tsx', '.js', '.jsx'],
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },

@@ -5,18 +5,15 @@ import './index.css';
 import LoginContainer from './container';
 
 class Login extends Component {
-  constructor() {
-    super()
-    this.state = {
-
-    }
+  componentDidMount() {
+    console.log('componentDidMount');
   }
 
   render() {
     return (
       <LoginContainer />
-    )
+    );
   }
 }
 
-export default Login
+export default Login;
