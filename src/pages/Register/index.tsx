@@ -5,18 +5,15 @@ import './index.css';
 import RegisterContainer from './container';
 
 class Register extends Component {
-  constructor() {
-    super()
-    this.state = {
-
-    }
+  componentDidMount() {
+    console.log('componentDidMount');
   }
 
   render() {
     return (
       <RegisterContainer />
-    )
+    );
   }
 }
 
-export default Register
+export default Register;
