@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "npm-run-all build start:server",
-    "start:server":"node server.js",
+    "start:server": "node server.js",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

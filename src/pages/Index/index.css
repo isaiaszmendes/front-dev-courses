@@ -1,5 +1,7 @@
-#page-index{
+.index-container{
+  color: wheat;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100vh;
+  height: 100vh;
+  background-color: #171B33;
 }
